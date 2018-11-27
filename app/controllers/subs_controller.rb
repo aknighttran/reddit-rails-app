@@ -28,7 +28,7 @@ class SubsController < ApplicationController
     # Models, all logic code
     # ordering, printing
 
-  before_action :set_sub only: [:show, :update, :edit, :destroy]
+  before_action :set_sub, only: [:show, :update, :edit, :destroy]
   # before_action :set_sub, except: [:index, :new, :create]
 
   # TODO - anything that needs to be done
